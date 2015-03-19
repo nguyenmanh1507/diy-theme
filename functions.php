@@ -17,6 +17,8 @@ function diy_setup() {
 	// enable custom backgrounds
 	add_theme_support( 'custom-background' );
 
+	add_theme_support( 'title-tag' );
+
 	// enable three nav menus
 	register_nav_menus( array(
 			'header'      => __( 'Header Menu', 'diy' ),
@@ -86,7 +88,7 @@ function diy_scripts_styles() {
 add_action( 'wp_enqueue_scripts', 'diy_scripts_styles' );
 
 // Add Shortcode
-function diy_year() {
-	return date( 'Y' );
-}
-add_shortcode( 'y', 'diy_year' );
+// function diy_year() {
+// 	return date( 'Y' );
+// }
+// add_shortcode( 'y', 'diy_year' );

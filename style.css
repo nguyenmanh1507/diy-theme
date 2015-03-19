@@ -1,0 +1,75 @@
+/*
+Theme Name: DIY Theme
+Theme URI: http://example.com/
+Description: A basic starter theme.
+Author: Theme Author
+Author URI: http://example.com/
+Version: 1.0
+Tags: two-columns, fluid-layout, editor-style, custom-menu, featured-images, threaded-comments
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.box {}
+
+.header {}
+
+.content {
+	float: left;
+	width: 65%;
+	background-color: #efefef;
+}
+
+.sidebar {
+	float: right;
+	width: 33%;
+	background-color: #efefef;
+}
+
+.footer {
+	clear: both;
+	padding: 12px 0 0 0;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+a {}
+
+img { max-width: 100%; height: auto; }
+
+/* Recommended class */
+.wp-caption {}
+
+.wp-caption-text {}
+
+.sticky {}
+
+.gallery-caption {}
+
+.bypostauthor {}
+
+.alignright {}
+
+.alignleft {}
+
+.aligncenter {}
+
+/* Media screen */
+@media only screen and (max-width: 800px) {
+	.content,
+	.sidebar {
+		float: none;
+		width: 100%;
+	}
+}

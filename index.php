@@ -17,7 +17,7 @@
 
 	<div class="nav nav-post nav-archive">
 		<div class="prev">
-			<?php prev_posts_link(); ?>
+			<?php previous_posts_link(); ?>
 		</div>
 		<div class="next">
 			<?php next_posts_link(); ?>
